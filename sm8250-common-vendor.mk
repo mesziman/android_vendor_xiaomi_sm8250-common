@@ -266,6 +266,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.wifidisplaysession@1.0 \
     vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk \
     android.hardware.secure_element@1.0-impl \
+    com.qti.feature2.generic \
+    com.qti.feature2.gs \
+    com.qti.feature2.mfsr \
+    com.qti.feature2.rt \
     com.qualcomm.qti.dpm.api@1.0_vendor \
     com.qualcomm.qti.imscmservice@1.0 \
     com.qualcomm.qti.imscmservice@2.0 \
@@ -278,6 +282,7 @@ PRODUCT_PACKAGES += \
     deviceInfoServiceModule \
     android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.gatekeeper@1.0-impl-qti \
+    com.qti.chi.override \
     vendor.qti.esepowermanager@1.1-impl \
     vendor.qti.hardware.alarm@1.0-impl \
     vendor.qti.hardware.bluetooth_sar@1.1-impl \
@@ -308,23 +313,28 @@ PRODUCT_PACKAGES += \
     libQSEEComAPI \
     libQTEEConnector_listener \
     libQTEEConnector_vendor \
+    libSNPE \
     libSecureUILib \
     libStDrvInt \
     libadsp_default_listener \
     libaoa \
+    libarcsat \
     libasn1cper \
     libasn1crt \
     libasn1crtx \
     libbtnv \
+    libc++_shared \
     libcacertclient \
     libcdfw \
     libcdfw_remote_api \
     libcdsp_default_listener \
     libcdsprpc_system \
+    libchilog \
     libcne \
     libcneapiclient \
     libcneoplookup \
     libcneqmiutils \
+    libcom.qti.chinodeutils \
     libconfigdb \
     libcpion \
     libdataitems \
@@ -362,6 +372,7 @@ PRODUCT_PACKAGES += \
     libminkdescriptor \
     libminksocket \
     libmodemapi \
+    libmpbase \
     libnetmgr \
     libnetmgr_common \
     libnetmgr_nr_fusion \
@@ -414,9 +425,11 @@ PRODUCT_PACKAGES += \
     libspcom \
     libspl \
     libssd \
+    libsupermoon \
     libsystem_health_mon \
     libtime_genoff \
     libtinyxml2_1 \
+    libtriplecam_video_optical_zoom \
     libtrustedapploader \
     libtzdrmgenprov \
     libwms \
@@ -462,6 +475,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
     vendor.qti.hardware.cacert@1.0 \
+    vendor.qti.hardware.camera.postproc@1.0-service-impl \
     vendor.qti.hardware.data.cne.internal.api@1.0 \
     vendor.qti.hardware.data.cne.internal.constants@1.0 \
     vendor.qti.hardware.data.cne.internal.server@1.0 \
@@ -587,6 +601,7 @@ PRODUCT_PACKAGES += \
     cnss-daemon \
     dpmQmiMgr \
     dspservice \
+    f2player \
     feature_enabler_client \
     android.hardware.bluetooth@1.0-service-qti \
     android.hardware.drm@1.3-service.widevine \
